@@ -80,19 +80,19 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="dvA-bA-ECB">
                                         <rect key="frame" x="90" y="0.0" width="198" height="114"/>
                                         <subviews>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.050000000000000003" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ZqK-1i-X9A" userLabel="Red Slider">
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.40000000000000002" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ZqK-1i-X9A" userLabel="Red Slider">
                                                 <rect key="frame" x="-2" y="0.0" width="202" height="31"/>
                                                 <connections>
                                                     <action selector="rgbSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="55Y-dq-mC2"/>
                                                 </connections>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.25" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="fXz-Y0-vQ7" userLabel="Green Slider">
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="fXz-Y0-vQ7" userLabel="Green Slider">
                                                 <rect key="frame" x="-2" y="42" width="202" height="31"/>
                                                 <connections>
                                                     <action selector="rgbSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="yH9-c0-Iyq"/>
                                                 </connections>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="BhV-eo-hSg" userLabel="Blue Slider">
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.59999999999999998" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="BhV-eo-hSg" userLabel="Blue Slider">
                                                 <rect key="frame" x="-2" y="84" width="202" height="31"/>
                                                 <connections>
                                                     <action selector="rgbSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="yX3-NI-qJP"/>
